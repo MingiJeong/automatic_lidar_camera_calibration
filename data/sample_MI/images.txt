@@ -1,0 +1,10 @@
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/photo/0.bmp
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/photo/1.bmp
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/photo/2.bmp
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/photo/3.bmp
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/photo/4.bmp
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/photo/5.bmp
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/photo/6.bmp
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/photo/7.bmp
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/photo/8.bmp
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/photo/9.bmp

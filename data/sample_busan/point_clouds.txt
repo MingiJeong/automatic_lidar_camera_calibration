@@ -1,0 +1,10 @@
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_busan_test/point_clouds/0test.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_busan_test/point_clouds/1test.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_busan_test/point_clouds/2test.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_busan_test/point_clouds/3test.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_busan_test/point_clouds/4test.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_busan_test/point_clouds/5test.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_busan_test/point_clouds/6test.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_busan_test/point_clouds/7test.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_busan_test/point_clouds/8test.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_busan_test/point_clouds/9test.pcd

@@ -25,15 +25,22 @@ int main(int argc, char* argv[])
         return EXIT_FAILURE;
     }
 
+    // printf("here \n");
     const std::string PARAM_PATH = argv[1];
 
+    // printf("here1 \n");
     perception::CalibrationHandlerParam param = perception::getCalibrationHandlerParam(PARAM_PATH);
+    // printf("here2 \n");
     perception::CalibrationHandler<PointCloudType>::Ptr calibrationHandler(
         new perception::CalibrationHandler<PointCloudType>(param));
 
+    // printf("here3 \n");
     auto transform = calibrationHandler->optimize();
+    // printf("here4 \n");
     const auto visualizedImgs = calibrationHandler->drawPointCloudOnImagePlane(transform);
+    // printf("here5 \n");
     const auto projectedClouds = calibrationHandler->projectOnPointCloud(transform);
+    // printf("here6 \n");
 
     printf("x: %f[m], y: %f[m], z: %f[m], r: %f[deg], p: %f[deg], y_deg: %f[deg]\n", transform(0), transform(1),
            transform(2), transform(3) * boost::math::double_constants::radian,

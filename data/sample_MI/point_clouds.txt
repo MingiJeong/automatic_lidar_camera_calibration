@@ -1,0 +1,10 @@
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/pcdFiles/0.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/pcdFiles/1.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/pcdFiles/2.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/pcdFiles/3.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/pcdFiles/4.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/pcdFiles/5.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/pcdFiles/6.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/pcdFiles/7.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/pcdFiles/8.pcd
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_MI/pcdFiles/9.pcd

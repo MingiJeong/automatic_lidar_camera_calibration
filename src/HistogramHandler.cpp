@@ -46,9 +46,9 @@ std::array<double, 2> HistogramHandler::calculateStds() const
         sigmaGray += m_grayHist.at<double>(i) * std::pow((i - meanGray), 2);
         sigmaIntensity += m_intensityHist.at<double>(i) * std::pow((i - meanIntensity), 2);
     }
-
     sigmaGray /= m_totalPoints;
     sigmaIntensity /= m_totalPoints;
+
 
     return std::array<double, 2>{std::sqrt(sigmaGray), std::sqrt(sigmaIntensity)};
 }

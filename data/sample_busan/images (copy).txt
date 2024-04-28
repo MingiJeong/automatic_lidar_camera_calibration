@@ -1,0 +1,1 @@
+/home/mingi/perception_ws/src/automatic_lidar_camera_calibration/data/sample_busan/images/0.png

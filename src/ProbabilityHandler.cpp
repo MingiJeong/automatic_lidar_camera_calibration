@@ -110,10 +110,44 @@ double ProbabilityHandler::calculateMICost(const bool normalize) const
     return normalize ? normalizedMutualInformation : mutualInformation;
 }
 
+std::string type2str(int type) {
+  std::string r;
+
+  uchar depth = type & CV_MAT_DEPTH_MASK;
+  uchar chans = 1 + (type >> CV_CN_SHIFT);
+
+  switch ( depth ) {
+    case CV_8U:  r = "8U"; break;
+    case CV_8S:  r = "8S"; break;
+    case CV_16U: r = "16U"; break;
+    case CV_16S: r = "16S"; break;
+    case CV_32S: r = "32S"; break;
+    case CV_32F: r = "32F"; break;
+    case CV_64F: r = "64F"; break;
+    default:     r = "User"; break;
+  }
+
+  r += "C";
+  r += (chans+'0');
+
+  return r;
+}
+
 void ProbabilityHandler::smoothKDE()
 {
+
+    // std::cout << "OpenCV version : " << CV_VERSION << std::endl;
+    // std::string ty =  type2str( m_grayProb.type() );
+    // std::cout << "TESTING " << m_sigmaGrayBandwidth << "," << m_grayProb.size() << "," << ty << std::endl;
+    //cv::Mat dst = m_grayProb.clone();
+    //cv::imshow("test", m_grayProb);
+    //cv::waitKey(0);
+    //cv::destroyWindow("test");
     cv::GaussianBlur(m_grayProb, m_grayProb, cv::Size(0, 0), m_sigmaGrayBandwidth);
+    // std::cout << "after\n";
     cv::GaussianBlur(m_intensityProb, m_intensityProb, cv::Size(0, 0), m_sigmaIntensityBandwidth);
     cv::GaussianBlur(m_jointProb, m_jointProb, cv::Size(0, 0), m_sigmaGrayBandwidth, m_sigmaIntensityBandwidth);
 }
 }  // namespace perception
+
+
